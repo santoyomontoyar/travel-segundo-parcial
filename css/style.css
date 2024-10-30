@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.menu{
+    width: 382px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    width: 600px;
+}
+
+.menu a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    display: block;
+    padding: 15px;
+}
+
+.menu a:hover{
+    transform: scale(1.05);
+}
+
+.hero   {
+    width: 100%;
+    height: 1336px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 34px;
+}
+
+.actions a{
+    text-decoration: none;
+    color: white;
+}
