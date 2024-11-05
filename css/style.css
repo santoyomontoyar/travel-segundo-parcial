@@ -48,6 +48,41 @@ header{
     align-items: center;
     justify-content: center;
 
+  }
+  .hero_description h1 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 900;
+    text-align: center;
+    width: 800px;
+  }
+  .hero_description p {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin: 55px auto;
+    width: 600px;
+  }
+  .hero_description .btn_green {
+    width: 215px;
+    height: 60px;
+    background: #00A651;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 0;
+    transition: all 0.5s ease;
+  }
+  .hero_description .btn_green:hover {
+    background: #fff;
+    color: #00A651;
+  }
+
 .actions{
     display: flex;
     justify-content: space-between;
@@ -55,7 +90,10 @@ header{
     gap: 34px;
 }
 
+
+
 .actions a{
+
     text-decoration: none;
     color: white;
 }
