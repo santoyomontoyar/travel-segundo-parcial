@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: black;
+  }
+  header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .menu {
+    width: 382px;
+  }
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+  }
+  .menu a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    display: block;
+    padding: 15px 0;
+  }
+  .menu a:hover {
+    color: #f0f0f0;
+    transform: scale(1.1);
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+  }
+  .actions a {
+    text-decoration: none;
+    color: #fff;
+  }
