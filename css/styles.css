@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
   }
   body{
-    background-color: black;
+    background-color: white;
   }
   header {
     width: 100%;
@@ -63,7 +65,7 @@
     font-size: 16px;
     text-align: center;
     margin: 55px auto;
-    width: 500px;
+    width: 600px;
   }
   .hero_description .btn_green {
     width: 215px;
