@@ -140,3 +140,73 @@
     font-size: 16px;
     width: 330px;
 }
+
+.best-services {
+  text-align: center;
+  margin: 81px 100px 88px 100px;
+  background-image: url('../img/world-map.jpg');
+  background-size: 1184px 622px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.best-services h1 {
+  color: black;
+  padding: 72px;
+  font-size: 40px;
+  text-align: center;
+  margin: auto auto;
+  width: 600px;
+}
+
+.best-services p {
+  text-align: center;
+  margin-top: 19px;
+  margin-right: auto;
+  margin-bottom: 130px;
+  margin-left: auto;
+  width: 500px;
+}
+
+.best-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.best-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 250px;
+  padding: 33px 70px 20px 70px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.best-card:hover {
+  transform: translateY(-5px);
+}
+
+.best-icon img {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 35px;
+}
+
+.best-card h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #000000;
+}
+
+.best-card p {
+  color: #000000;
+  font-size: 20px;
+  width: 100px;
+}
