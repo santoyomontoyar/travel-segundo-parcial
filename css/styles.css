@@ -210,3 +210,105 @@
   font-size: 20px;
   width: 100px;
 }
+
+.popular-destinations {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+}
+
+ .contenido h1 {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  padding: 10px;
+  margin: 50px;
+}
+.mapa-fondo {
+  background-image: url(img/.mapa-fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50px;
+  color: white;
+  position: absolute;
+  right: 760px;
+}
+
+.lugar:hover {
+  background-color: transparent;
+  transform: scale(1.1); 
+}
+
+.lugar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 20px;
+  z-index: 2;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.lugar img {
+  z-index: 2;
+  position: relative;
+  width: 160px;
+  padding-top: 42px;
+  margin-right: 43px;
+  margin-bottom: 40px;
+  margin: -62px 28px -20px -20px;
+}
+
+.lugar h2 {
+  text-align: center;
+  justify-content: center; 
+  padding: 50%;
+}
+
+.lugar p {
+  display: flex;
+  flex-wrap: wrap;
+  width: 210px;
+  text-align: center;
+  justify-content: center;
+  padding: 32px;
+  margin: 0 0 0 -75px;
+  text-align: center;
+  z-index: 2;
+}
+
+pre {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 6px;
+  z-index: 2;
+}
+
+
+.circulo {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #007bff;
+  border: 3px solid gray;
+  box-shadow: 0 0 0  rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.destinations{
+  width: 1300px;
+  margin: auto;
+  padding: 95px;
+  margin-left: 150px;
+}
+.destination{
+  width:45%;
+  float: right;
+  padding: 20px;
+}
+.clearfix{
+  display: block;
+  clear: both;
+}
