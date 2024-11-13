@@ -312,3 +312,162 @@ pre {
   display: block;
   clear: both;
 }
+
+.Bptitulo{
+  background-color: #ECF1F0;
+  margin: 190px 0 0 0;
+}
+
+.Bptitulo h1 {
+  text-align: center;
+  padding: 59px 0px 0px 17px;
+  font-size: 37px;
+  font-weight: 700;
+}
+
+.Bpboton {
+  display: flex;
+  gap: 80px;
+  padding: 0px 127px 0px 109px;
+}
+
+.Bpboton a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.btn1bp {
+  background-color: #666666;
+  height: 53px;
+  width: 180px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 13px 3px 17px 0px;
+  margin: 52px -16px 37px;
+  border-radius: 10px;
+}
+
+.btngreenbp2 {
+  background-color: #00A651;
+  height: 63px;
+  width: 274px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin: -132px 0 0 432px;
+  padding: 19px;
+  border-radius: 10px;
+}
+
+.BestPackages {
+  display: flex;
+  margin: 132px 102px 0px 98px;
+  gap: 72px;
+}
+
+.whitebox_bp {
+  position: relative;
+  bottom: 203px;
+  background: #fff;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  height: 180px;
+  width: 0;
+  padding: 0px 335px 0px 0px;
+}
+.whitebox_bp h1 {
+  text-align: center;
+  padding: 64px 0px 0px 17px;
+  font-size: 37px;
+  font-weight: 400;
+  width: 166px;
+}
+
+.Packages img {
+  position: relative;
+  bottom: 80px;
+  width: 335px;
+  height: 383px;
+}
+
+.Packages h1 {
+  font-size: 20px;
+  position: relative;
+  bottom: 47px;
+}
+
+.Packages h2 {
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  left: 270px;
+  bottom: 92px;
+  margin: 19px -79px 15px;
+}
+
+.Packages p {
+  font-size: 14px;
+  position: relative;
+  left: 12px;
+  bottom: 81px;
+  padding: 0px;
+  width: 341px;
+  font-weight: 600;
+  color: #000000c2;
+}
+
+.Attribute_bp {
+  display: flex;
+  margin: -33px 0;
+}
+
+.Attribute_bp img {
+  position: relative;
+  bottom: 15px;
+  width: 20px;
+  height: 20px;
+  top: -14px;
+  left: 10px;
+}
+
+.Attribute_bp h3 {
+  position: relative;
+  left: 12px;
+  bottom: 18px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.Attribute_bp h4 {
+  position: relative;
+  left: 240px;
+  bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  top: -32px;
+  margin: 19px -128px 15px;
+}
+.Attribute_bp h5 {
+  position: relative;
+  left: 240px;
+  bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  top: -32px;
+  margin: 19px -82px 15px;
+}
+
+.Bpboton1 a:hover {
+  background: #00A651;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.Bpboton2 a:hover {
+  background: #fff;
+  color: #00A651;
+  transition: all 0.5s ease;
+}
