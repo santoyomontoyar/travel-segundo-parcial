@@ -328,7 +328,7 @@ pre {
 .Bpboton {
   display: flex;
   gap: 80px;
-  padding: 0px 127px 0px 109px;
+  padding: 0px 127px 0px 142px;
 }
 
 .Bpboton a {
@@ -356,14 +356,14 @@ pre {
   text-align: center;
   font-size: 20px;
   font-weight: 700;
-  margin: -132px 0 0 432px;
+  margin: -132px 0 0 505px;
   padding: 19px;
   border-radius: 10px;
 }
 
 .BestPackages {
   display: flex;
-  margin: 132px 102px 0px 98px;
+  margin: 132px 102px 0px 208px;
   gap: 72px;
 }
 
