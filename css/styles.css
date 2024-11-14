@@ -820,3 +820,69 @@ transform: translate(-28px, 0px);
 .subscription-form button:hover {
   background-color: #45a047;
 }
+
+.footer {
+  background-color: white;
+  padding: 22px;
+  display: flex;
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.columna-footer {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer h3 {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 0 18px 12px;
+}
+
+.footer p {
+  color:gray;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 8px;
+}
+
+.footer a {
+  color:gray;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 8px;
+  transition: all 0.5s ease;
+}
+
+.footer a:hover {
+  color:black;
+}
+
+.footer .social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer .iconos-sociales img {
+  width: 57px;
+  height: 57px;
+  cursor: pointer;
+  
+}
+
+.botones-apps img {
+  width: 115px;
+  margin-top: 20px;
+  
+}
+
+.final {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color:grey;
+  background-color:white;
+}
