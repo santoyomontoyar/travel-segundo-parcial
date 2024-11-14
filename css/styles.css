@@ -665,3 +665,74 @@ position: absolute;
   padding: 0 159px;
   transform: translate(94px, 30px)
 }
+
+.capatransparente{
+  top: 0;
+  left: 0;
+  width: 1450px;
+  height: 830px;
+  background-color: #ECF1F0;
+  margin: 97px 0;
+}
+
+.fotoscompletas{
+  display: flex;
+  gap: 505px;
+  width: 0;
+  height: 0;
+}
+
+.tituloprincipal{
+  text-align: center;
+  padding: 60px;
+}
+
+.people {
+  width: 100px;
+  height: 100px;
+}
+
+.paisaje1{
+  justify-content: center;
+  display: flex;
+  width: 190px;
+  height: 350px;
+  transform: translate(-0%, 55px);
+}
+
+
+.contenedordescripcion{
+  background-color: white;
+  text-align: center;
+  align-content: center;
+  position: absolute;
+  padding: 20px;
+  margin: 120px 0 0 108px;
+  height: 250px;
+  width: 500px;
+  left: 370px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transform: translate(-0%, 70px);
+}
+
+.fotodeperfil1{
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  position: absolute;
+  width: 1450px;
+  transform: translate(-0%, 73%);
+  border: 100%;
+  border-radius: 50%;
+}
+
+.contenedordescripcion p{
+  text-align: center;
+  width: 350px;
+  margin: 55px;
+}ß
+
+.parte2{
+  width: 100px;
+  height: 100px;
+}
