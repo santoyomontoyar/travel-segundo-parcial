@@ -736,3 +736,87 @@ position: absolute;
   width: 100px;
   height: 100px;
 }
+
+.mensaje{
+  transform: translate(1px, 133px);
+}
+
+.cruces1{
+  position: absolute;
+  transform: translate(1014px, 270px);
+}
+
+.icono03{
+  transform: translate(1037px, -50px);
+  position: absolute;
+}
+
+.rayasesquina{
+  position: absolute;
+  transform: translate(-90px, 9px);
+}
+
+.rayasesquina2{
+  position: absolute;
+  transform: translate(765px, -10px);
+}
+
+.subscription-container {
+  background-color: #c2fff3;
+  border-radius: 10px;
+  text-align: center;
+  width: 1085px;
+  height: 380px;
+  margin: 200px;
+  padding: 10px;
+border-top-left-radius: 100px;
+transform: translate(-28px, 0px);
+}
+
+.subscription-container h2 {
+  color: #5E6282;
+  font-size: 25px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  transform: translate(200px, 85px);
+  width: 700px;
+  height: 50px;
+}
+
+.subscription-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.subscription-form input {
+  padding: 10px 15px;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  flex: 1;
+  max-width: 300px;
+  font-size: 14px;
+  outline: none;
+  width: 421px;
+  height: 50px;
+  transform: translate(-0%, 130px);
+}
+
+.subscription-form button {
+  padding: 10px 20px;
+  background-color: #00A651;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  height: 50px;
+  transform: translate(-0%, 130px);
+}
+
+.subscription-form button:hover {
+  background-color: #45a047;
+}
