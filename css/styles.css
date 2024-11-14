@@ -471,3 +471,197 @@ pre {
   color: #00A651;
   transition: all 0.5s ease;
 }
+
+.containerrr {
+  max-width: 900px;
+  margin: auto;
+}
+
+.containerrr h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 45px 0 0 0;
+}
+
+.containerrr h2{
+  font-size: 26px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  margin: 0;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  margin: 120px 0 55px -140px;
+  gap: 89px;
+}
+
+.step {
+  width: 200px;
+}
+
+.icon71 {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 15px;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.choose-destination {
+  background-color: #F0BB1F;
+}
+
+.make-payment {
+  background-color: #F15A2B;
+}
+
+.reach-airport {
+  background-color: #006380;
+}
+
+.step h2 {
+  font-size: 15px;
+  margin: -72px 0 0 153px;
+  position: absolute;
+  color: #5E6282;
+  font-weight: 700;
+}
+
+.step p {
+  font-size: 16px;
+  color: #5E6282;
+  margin: -45px 0 0 -165px;
+  padding: 0px 777px 100px 318px;
+  position: absolute;
+}
+
+.trip-card {
+  position: relative;
+  padding: 20px 0 0 26px;
+  margin: -416px 294px 0 285px;
+  background: #fff;
+  box-shadow: 50px 21px 119px rgba(0 0 0 / 10%);
+  border-radius: 26px;
+  left: 275px;
+  top: -9px;
+}
+
+.trip-image {
+  width: 275px;
+  height: 138px;
+  border-radius: 24px;
+}
+
+.trip-info h3 {
+  font-size: 18px;
+  color: #080809;
+  margin: 8px 0 53px 0px;
+  font-weight: 500;
+}
+
+.trip-info p {
+  margin: 0 0 -20px;
+  font-weight: 500;
+  color: #84829A;
+  font-size: 16px;
+  transform: translate(0px, -42px);
+}
+
+.trip-stats p {
+  transform: translate(29px, -24px);
+}
+
+.icons_circle6 {
+  transform: translate(6px, -2px);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons_6 {
+display: flex;
+gap: 18px;
+}
+
+.icons_6 img {
+  width: 14px;
+  height: 14px;
+}
+
+.progress-card {
+position: absolute;
+  right: 98px;
+  top: 4895px;
+  background: #fff;
+  padding: 0px 18px 106px 128px;
+  border-radius: 18px;
+  text-align: left;
+  box-shadow: 11px 13px 36px -6px rgb(0 0 0 / 10%);
+}
+
+.progress-card p {
+  margin: 5px 0 9px 0;
+}
+
+.ongoing {
+  font-size: 14px;
+  font-weight: 500;
+  color: #84829A;
+  transform: translate(-47px, -13px);
+}
+
+.trip-name {
+  font-size: 18px;
+  color: #080809;
+  transform: translate(-47px, -18px);
+}
+
+.progress {
+  font-size: 0.8em;
+  color: #777;
+}
+
+.progress-card img {
+  margin: 0 -110px -50px;
+}
+
+.progress-percentage2 {
+  color: #8A79DF;
+}
+.progress-percentage {
+  font-size: 14px;
+  font-weight: 500;
+  transform: translate(-47px, -18px);
+}
+
+.progress-bar {
+  width: 135%;
+  height: 6px;
+  background: #ddd;
+  border-radius: 3px;
+  margin: -52px -45px;
+  transform: translate(-1px, 33px);
+}
+
+.progress {
+  height: 100%;
+  background: #8A79DF;
+  border-radius: 3px;
+}
+
+.coracao {
+  padding: 0 159px;
+  transform: translate(94px, 30px)
+}
